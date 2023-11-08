@@ -439,87 +439,603 @@
 - **Shortest Path:** Algorithms like Dijkstra's Algorithm and Bellman-Ford Algorithm find the shortest path between nodes in a graph.
 - **Minimum Spanning Tree:** Algorithms like Prim's Algorithm and Kruskal's Algorithm find the minimum spanning tree of a graph, connecting all nodes with the minimum total edge weight.
 
-## Trie
-- **Introduction:** A trie is a tree-like data structure used to store a dynamic set of strings, where the keys usually represent words or prefixes.
-- **Prefix Matching:** Tries allow efficient prefix matching and are commonly used in dictionary implementations and autocomplete systems.
-
-## Union-Find (Disjoint Set)
-- **Introduction:** Union-Find is a data structure that keeps track of elements divided into disjoint sets. It supports efficient union (combining sets) and find (determining which set an element belongs to) operations.
-- **Applications:** Union-Find is used in algorithms like Kruskal's Minimum Spanning Tree and detecting cycles in graphs.
-
-## Bit Manipulation
-- **Introduction:** Bit manipulation involves bitwise operations (AND, OR, XOR, shift, etc.) on integers at the bit level.
-- **Applications:** Bit manipulation is used in tasks like setting, clearing, or toggling specific bits, optimizing space, and solving various mathematical problems.
-
 # Problems
 
-## Array
+## Math Algorithms Problems
 
-1. **Two Sum:**
-   Given an array of integers, find two numbers such that they add up to a specific target number.
-   
-2. **Best Time to Buy and Sell Stock:**
-   Find the maximum profit by buying and selling a stock from an array of prices.
+1. **FizzBuzz:**
+   Write a program that prints the numbers from 1 to n. For multiples of three, print "Fizz" instead of the number, and for multiples of five, print "Buzz". For numbers that are multiples of both three and five, print "FizzBuzz".
 
-3. **Contains Duplicate:**
-   Determine if the input array contains any duplicates.
+2. **Fibonacci Sequence:**
+   Write a function to generate the nth Fibonacci number. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding ones (e.g., 0, 1, 1, 2, 3, 5, 8, 13, ...).
 
-4. **Product of Array Except Self:**
-   Given an array nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+3. **Prime Numbers:**
+   Write a program to determine whether a given number is prime or not.
 
-5. **Maximum Subarray:**
-   Find the contiguous subarray with the largest sum.
+4. **Factorial:**
+   Write a function to calculate the factorial of a given number. The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.
 
-6. **Rotate Array:**
-   Rotate an array to the right by k steps.
+5. **Palindrome Number:**
+   Write a program to determine whether a given number is a palindrome or not. A palindrome number reads the same backward as forward.
 
-7. **Merge Two Sorted Arrays:**
-   Merge two sorted arrays into a single sorted array.
+6. **Reverse Integer:**
+   Write a function to reverse the digits of a given integer.
 
-8. **Pascal's Triangle:**
-   Generate Pascal's triangle up to a given number of rows.
+7. **GCD and LCM:**
+   Write functions to find the greatest common divisor (GCD) and least common multiple (LCM) of two given numbers.
 
-9. **Move Zeroes:**
-   Move all zeroes to the end of the array without changing the order of non-zero elements.
+8. **Square Root:**
+   Write a function to calculate the square root of a given positive number using Newton's method or any other suitable algorithm.
 
-10. **Valid Sudoku:**
-    Determine if a Sudoku is valid.
+9. **Power of Two:**
+   Write a program to determine whether a given number is a power of two or not.
 
-11. **Spiral Matrix:**
-    Return all elements of the matrix in spiral order.
+10. **Sieve of Eratosthenes:**
+    Implement the Sieve of Eratosthenes algorithm to find all prime numbers up to a given limit.
 
-12. **Jump Game:**
-    Determine if you can reach the last index of the array starting from the first index.
+11. **Factorization:**
+    Write a program to find the prime factors of a given number.
 
-13. **Majority Element:**
-    Find the majority element, which appears more than ⌊n/2⌋ times in the array.
+12. **Trailing Zeroes in Factorial:**
+    Write a function to count the number of trailing zeroes in the factorial of a given number.
 
-14. **Set Matrix Zeroes:**
-    Given a m x n matrix, set entire rows and columns to 0 if any element is 0.
+13. **Armstrong Number:**
+    Write a program to determine whether a given number is an Armstrong number or not. An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
 
-15. **Single Number:**
-    Find the non-repeating element in an array where every other element appears twice.
+14. **HCF and LCM:**
+    Write functions to find the highest common factor (HCF) and lowest common multiple (LCM) of two given numbers.
 
-16. **Minimum Size Subarray Sum:**
-    Find the minimum length of a contiguous subarray of which the sum is greater than or equal to a given number.
+15. **Sum of Digits:**
+    Write a function to calculate the sum of the digits of a given number.
 
-17. **Max Consecutive Ones:**
-    Find the maximum number of consecutive 1s in the array.
+Certainly! Here are 10 problems for each of the mentioned topics:
 
-18. **Pascals Triangle II:**
-    Given an index k, return the kth row of the Pascal's triangle.
+## Array Problems
 
-19. **Find All Duplicates in an Array:**
-    Find all the elements that appear twice in an array.
+1. **Find Maximum Element:**
+   Given an array, find the maximum element in it.
 
-20. **Game of Life:**
-    Implement Conway's Game of Life. Given a board with m by n cells, determine its next state according to the following rules:
-    - Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-    - Any live cell with two or three live neighbors lives on to the next generation.
-    - Any live cell with more than three live neighbors dies, as if by overpopulation.
-    - Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+2. **Array Rotation:**
+   Rotate an array to the right by a given number of steps.
 
+3. **Sum of Two Elements:**
+   Given an array of integers, find two elements such that they add up to a specific target number.
 
+4. **Remove Duplicates:**
+   Remove duplicates from a sorted array and return the new length.
 
+5. **Missing Number:**
+   Find the missing number in an array containing n distinct numbers from 0 to n.
 
+6. **Product of Array Except Self:**
+   Given an array, compute an array where each element is the product of all elements in the original array except the current one.
 
+7. **Subarray with Given Sum:**
+   Find a subarray with a given sum in an array of positive integers.
+
+8. **Max Consecutive Ones:**
+   Given a binary array, find the maximum number of consecutive 1s.
+
+9. **Merge Sorted Arrays:**
+   Given two sorted arrays, merge them into a single sorted array.
+
+10. **Pascal's Triangle:**
+    Generate the first n rows of Pascal's triangle.
+
+## Linked List Problems
+
+1. **Reverse Linked List:**
+   Reverse a singly linked list.
+
+2. **Detect Cycle:**
+   Detect if a linked list has a cycle.
+
+3. **Find Middle Element:**
+   Find the middle element of a linked list.
+
+4. **Remove Nth Node From End:**
+   Remove the nth node from the end of a linked list and return its head.
+
+5. **Intersection Point:**
+   Find the node at which the intersection of two singly linked lists begins.
+
+6. **Palindrome Linked List:**
+   Check if a linked list is a palindrome.
+
+7. **Merge Two Sorted Lists:**
+   Merge two sorted linked lists into a new sorted list.
+
+8. **Add Two Numbers:**
+   Given two non-empty linked lists representing two non-negative integers, add the numbers and return the sum as a linked list.
+
+9. **Flatten a Multilevel Doubly Linked List:**
+   Flatten a multilevel doubly linked list into a single-level doubly linked list.
+
+10. **Copy Random Pointer:**
+    A linked list of length n is given such that each node contains an additional random pointer, which could point to any node in the list or null. Create a deep copy of the list.
+
+## Stack Problems
+
+1. **Valid Parentheses:**
+   Given a string containing just the characters '(', ')', '{', '}', '[', and ']', determine if the input string is valid.
+
+2. **Evaluate Reverse Polish Notation:**
+   Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
+3. **Min Stack:**
+   Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+4. **Implement Queue using Stacks:**
+   Implement a queue using two stacks.
+
+5. **Next Greater Element:**
+   Given an array, find the next greater element for every element.
+
+6. **Expression Evaluation:**
+   Evaluate a given expression in the form of a string.
+
+7. **Implement Stack using Queues:**
+   Implement a stack using queues.
+
+8. **Largest Rectangle in Histogram:**
+   Given an array of heights representing a histogram, find the area of the largest rectangle.
+
+9. **Simplify Path:**
+   Given an absolute path for a file, simplify it.
+
+10. **Valid Parenthesis String:**
+    Given a string containing only three types of characters: '(', ')', and '*', check whether this string is valid.
+
+## Queue Problems
+
+1. **Circular Queue Implementation:**
+   Implement a circular queue with operations: enqueue, dequeue, isEmpty, and isFull.
+
+2. **Sliding Window Maximum:**
+   Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.
+
+3. **Design Twitter:**
+   Design a simplified version of Twitter, where users can post tweets, follow/unfollow other users, and see the recent 10 tweets in the user's news feed.
+
+4. **Rotting Oranges:**
+   Given a grid representing a field with oranges, determine how many minutes pass until no cell has a fresh orange left.
+
+5. **Implement Queue using Stacks:**
+   Implement a queue using two stacks.
+
+6. **Generate Binary Numbers:**
+   Given a number n, generate the first n binary numbers.
+
+7. **Implement Stack using Queues:**
+   Implement a stack using queues.
+
+8. **Queue Reconstruction by Height:**
+   Reconstruct a queue based on height and the number of people in front.
+
+9. **Moving Average from Data Stream:**
+   Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
+
+10. **Implement Stack using Linked List:**
+    Implement a stack using a linked list.
+
+Certainly! Here are 10 problems for each of the mentioned topics:
+
+## Tree Problems
+
+1. **Binary Tree Maximum Path Sum:**
+   Given a binary tree, find the maximum path sum. The path may start and end at any node in the tree.
+
+2. **Lowest Common Ancestor:**
+   Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+
+3. **Binary Tree Level Order Traversal:**
+   Perform a level order traversal of a binary tree, i.e., traverse the tree level by level.
+
+4. **Serialize and Deserialize Binary Tree:**
+   Design an algorithm to serialize and deserialize a binary tree. Serialization is the process of converting a tree to a string, and deserialization is the process of reconstructing the tree from the string.
+
+5. **Count Complete Tree Nodes:**
+   Given a complete binary tree, count the number of nodes.
+
+6. **Symmetric Tree:**
+   Determine if a binary tree is symmetric (mirror image of itself).
+
+7. **Convert Sorted Array to Binary Search Tree:**
+   Given a sorted array, convert it into a height-balanced binary search tree (BST).
+
+8. **Maximum Depth of Binary Tree:**
+   Find the maximum depth of a binary tree, i.e., the length of the longest path from the root node to any leaf node.
+
+9. **Path Sum:**
+   Determine if a binary tree has a root-to-leaf path such that adding up all the numbers along the path equals a given sum.
+
+10. **Balanced Binary Tree:**
+    Determine if a binary tree is height-balanced, meaning the left and right subtrees' heights differ by at most one.
+
+## Graph Problems
+
+1. **Clone Graph:**
+   Given a reference of a node in a connected undirected graph, return a deep copy of the graph.
+
+2. **Word Ladder:**
+   Given two words and a dictionary of words, find the length of the shortest transformation sequence from the first word to the second word, such that changing one letter at a time forms a valid word.
+
+3. **Number of Islands:**
+   Given a 2D grid of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.
+
+4. **Graph Valid Tree:**
+   Given n nodes labeled from 0 to n-1 and a list of undirected edges, check if the graph forms a valid tree.
+
+5. **Course Schedule:**
+   There are a total of n courses labeled from 0 to n-1. Some courses may have prerequisites. Determine if it is possible to finish all courses.
+
+6. **Word Search:**
+   Given a 2D board and a word, find if the word exists in the grid. The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring.
+
+7. **Alien Dictionary:**
+   Given a list of words sorted in lexicographical order, construct the dictionary's order and return it. If the input is invalid, return an empty string.
+
+8. **Graph Connectivity with Threshold:**
+   Given an integer threshold and a 2D array of integers, determine if there exists a path between any two nodes such that the absolute difference between the values of nodes on the path is less than or equal to the threshold.
+
+9. **Network Delay Time:**
+   There are n network nodes, labeled from 1 to n, and times, a list of travel times as directed edges. Calculate the time it takes for all the nodes to receive the signal from node k. If the signal cannot reach all the nodes, return -1.
+
+10. **Longest Increasing Path in a Matrix:**
+    Given an m x n integers matrix, find the length of the longest increasing path.
+
+## Sorting Algorithms Problems
+
+1. **Kth Largest Element in an Array:**
+   Find the kth largest element in an unsorted array.
+
+2. **Top K Frequent Elements:**
+   Given a non-empty array of integers, return the k most frequent elements.
+
+3. **Sort Colors:**
+   Given an array with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+4. **Meeting Rooms:**
+   Given an array of meeting time intervals, determine if a person could attend all meetings.
+
+5. **Merge Intervals:**
+   Given a collection of intervals, merge overlapping intervals.
+
+6. **Largest Number:**
+   Given a list of non-negative integers, arrange them in such a way that they form the largest number.
+
+7. **Sort List:**
+   Sort a linked list in O(n log n) time using constant space complexity.
+
+8. **Insertion Sort List:**
+   Sort a linked list using insertion sort.
+
+9. **Wiggle Sort:**
+   Given an unsorted array, reorder it in-place such that nums[0] <= nums[1] >= nums[2] <= nums[3]....
+
+10. **Longest Consecutive Sequence:**
+    Given an unsorted array of integers, find the length of the longest consecutive elements' sequence.
+
+## Searching Algorithms Problems
+
+1. **Search in Rotated Sorted Array:**
+   Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. You are given a target value to search. If found in the array, return its index; otherwise, return -1.
+
+2. **Peak Element:**
+   Find a peak element in an array. An array element is a peak if it is NOT smaller than its neighbors.
+
+3. **Search a 2D Matrix:**
+   Write an efficient algorithm that searches for a target value in an m x n matrix.
+
+4. **Search in a Sorted Array of Unknown Size:**
+   Given an integer array sorted in ascending order, write a function to search the target in an array. If the target exists, return its index; otherwise, return -1.
+
+5. **Find Minimum in Rotated Sorted Array:**
+   Suppose an array of length n sorted in ascending order is rotated between 1 and n times. Find the minimum element.
+
+6. **First Bad Version:**
+   You are a product manager, and your company is planning to release a new product. However, the development is ongoing, and some versions are bad. Find the first bad version.
+
+7. **Intersection of Two Arrays:**
+   Given two arrays, write a function to compute their intersection.
+
+8. **Search a 2D Matrix II:**
+   Write an efficient algorithm that searches for a target value in an m x n matrix. Integers in each row and column are sorted in ascending order.
+
+9. **Find Peak Element:**
+   A peak element in an array is an element which is greater than or equal to its neighbors. Find a peak element in an array.
+
+10. **Minimum Number of Days to Make m Bouquets:**
+    Given an integer array bloomDay, an integer m, and an integer k, you need to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden. The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.
+
+## Time and Space Complexity Problems
+
+1. **Time Complexity Analysis:**
+   Analyze the time complexity of an algorithm that traverses a given array of size n and performs constant-time operations on each element.
+
+2. **Space Complexity Analysis:**
+   Analyze the space complexity of an algorithm that generates all subsets of a given set of n elements using recursion.
+
+3. **Linear Search Time Complexity:**
+   Determine the time complexity of linear search in an array of size n elements.
+
+4. **Binary Search Time Complexity:**
+   Determine the time complexity of binary search in a sorted array of size n elements.
+
+5. **Bubble Sort Time Complexity:**
+   Analyze the time complexity of the bubble sort algorithm for sorting an array of n elements.
+
+6. **Merge Sort Time Complexity:**
+   Analyze the time complexity of the merge sort algorithm for sorting an array of n elements.
+
+7. **Quick Sort Time Complexity:**
+   Analyze the time complexity of the quick sort algorithm for sorting an array of n elements.
+
+8. **Factorial Space Complexity:**
+   Determine the space complexity of a recursive algorithm to calculate the factorial of a number n.
+
+9. **Fibonacci Sequence Time Complexity:**
+   Analyze the time complexity of a recursive algorithm to find the nth Fibonacci number using memoization.
+
+10. **Recursive Power Function Space Complexity:**
+    Determine the space complexity of a recursive function to calculate the power of a number x raised to the power of y.
+
+## Recursion Problems
+
+1. **Factorial using Recursion:**
+   Write a recursive function to calculate the factorial of a non-negative integer n.
+
+2. **Fibonacci Sequence using Recursion:**
+   Write a recursive function to find the nth Fibonacci number.
+
+3. **Sum of Digits using Recursion:**
+   Write a recursive function to find the sum of digits of a positive integer.
+
+4. **Binary Search using Recursion:**
+   Implement binary search using recursion in a sorted array.
+
+5. **Tower of Hanoi Problem:**
+   Solve the Tower of Hanoi problem for n disks using recursion.
+
+6. **Recursive Palindrome Check:**
+   Write a recursive function to check if a given string is a palindrome.
+
+7. **Recursive Factorial Sum:**
+   Write a recursive function to find the sum of factorials of numbers from 1 to n.
+
+8. **Recursive GCD (Greatest Common Divisor):**
+   Write a recursive function to find the GCD of two non-negative integers.
+
+9. **Recursive Combination Calculation:**
+   Write a recursive function to calculate the combination (nCk) of two non-negative integers n and k.
+
+10. **Recursive Fibonacci Sum:**
+    Write a recursive function to find the sum of the first n Fibonacci numbers.
+
+## Big O Notation Problems
+
+1. **Constant Time Complexity:**
+   Write an algorithm with constant time complexity O(1) that performs a specific task.
+
+2. **Linear Time Complexity:**
+   Write an algorithm with linear time complexity O(n) that finds the maximum element in an array of size n.
+
+3. **Logarithmic Time Complexity:**
+   Write an algorithm with logarithmic time complexity O(log n) that performs a binary search on a sorted array of size n.
+
+4. **Linearithmic Time Complexity:**
+   Write an algorithm with linearithmic time complexity O(n log n) that sorts an array of n elements using merge sort.
+
+5. **Quadratic Time Complexity:**
+   Write an algorithm with quadratic time complexity O(n^2) that performs bubble sort on an array of size n.
+
+6. **Exponential Time Complexity:**
+   Write an algorithm with exponential time complexity O(2^n) that generates all subsets of a set with n elements.
+
+7. **Factorial Time Complexity:**
+   Write an algorithm with factorial time complexity O(n!) that generates all permutations of a set with n elements.
+
+8. **Polynomial Time Complexity:**
+   Write an algorithm with polynomial time complexity O(n^k) that evaluates a polynomial of degree k for a given input n.
+
+9. **Quasilinear Time Complexity:**
+   Write an algorithm with quasilinear time complexity O(n log^2 n) that performs a modified version of merge sort.
+
+10. **Cubic Time Complexity:**
+    Write an algorithm with cubic time complexity O(n^3) that performs matrix multiplication of two n × n matrices.
+
+## Dynamic Programming Problems
+
+1. **Fibonacci Sequence using Dynamic Programming:**
+   Implement a dynamic programming solution to find the nth Fibonacci number.
+
+2. **Coin Change Problem:**
+   Given a set of coins with different denominations and a target amount, find the minimum number of coins needed to make the target amount. You have an unlimited supply of each coin denomination.
+
+3. **Longest Common Subsequence:**
+   Given two strings, find the length of their longest common subsequence.
+
+4. **Knapsack Problem:**
+   Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
+
+5. **Matrix Chain Multiplication:**
+   Given a sequence of matrices, find the most efficient way to multiply these matrices together.
+
+6. **Longest Increasing Subsequence:**
+   Given an unsorted array of integers, find the length of the longest increasing subsequence.
+
+7. **Edit Distance:**
+   Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.
+
+8. **Rod Cutting Problem:**
+   Given a rod of length n and a price list for different lengths, determine the maximum revenue that can be obtained by cutting and selling the rod.
+
+9. **Palindrome Partitioning:**
+   Given a string, partition it into palindromic substrings. Return all possible
+
+ palindrome partitioning of the input string.
+
+10. **Maximum Subarray Sum:**
+    Given an array of integers, find the contiguous subarray with the largest sum.
+
+## Greedy Algorithms Problems
+
+1. **Activity Selection Problem:**
+   Given a list of activities with start and finish times, select the maximum number of activities that don't overlap.
+
+2. **Fractional Knapsack Problem:**
+   Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value. You can break items for maximizing the total value.
+
+3. **Huffman Coding:**
+   Given a set of characters and their frequencies, construct a Huffman Tree to minimize the total encoding length.
+
+4. **Job Sequencing with Deadlines:**
+   Given a list of jobs with deadlines and profits, schedule the jobs to maximize the total profit. Each job takes one unit of time to complete.
+
+5. **Dijkstra's Algorithm:**
+   Given a graph with weighted edges, find the shortest path from a source node to all other nodes using Dijkstra's algorithm.
+
+6. **Prim's Algorithm:**
+   Given a connected, undirected graph with weighted edges, find a minimum spanning tree for the graph using Prim's algorithm.
+
+7. **Kruskal's Algorithm:**
+   Given a connected, undirected graph with weighted edges, find a minimum spanning tree for the graph using Kruskal's algorithm.
+
+8. **Interval Scheduling Problem:**
+   Given a list of intervals with start and finish times, find the maximum number of non-overlapping intervals.
+
+9. **Water Supply Problem:**
+   There are n cities connected by a network of pipes. Each pipe has a certain supply of water. Find the minimum supply of water needed at the source to supply all cities.
+
+10. **Gas Station Problem:**
+    There are n gas stations along a circular route. Each station has a certain amount of gas. Determine the starting gas station from where you can travel around the circle.
+
+## Divide and Conquer Problems
+
+1. **Binary Search using Divide and Conquer:**
+   Implement binary search using the divide and conquer approach in a sorted array.
+
+2. **Merge Sort:**
+   Implement the merge sort algorithm to sort an array of n elements.
+
+3. **Quick Sort:**
+   Implement the quick sort algorithm to sort an array of n elements.
+
+4. **Closest Pair of Points:**
+   Given an array of n points in a plane, find the closest pair of points among them using the divide and conquer approach.
+
+5. **Matrix Multiplication using Strassen's Algorithm:**
+   Implement matrix multiplication for n × n matrices using Strassen's algorithm, a divide and conquer approach.
+
+6. **Maximum Subarray Sum using Divide and Conquer:**
+   Given an array of integers, find the contiguous subarray with the largest sum using the divide and conquer approach.
+
+7. **Counting Inversions:**
+   Given an array of n integers, count the number of inversions in the array using the divide and conquer approach.
+
+8. **Convex Hull Problem:**
+   Given a set of points in a plane, find the convex hull of the points using the divide and conquer approach.
+
+9. **Largest Rectangular Area in a Histogram:**
+   Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of the largest rectangle in the histogram.
+
+10. **Closest Pair in 2D Plane:**
+    Given a set of points in a 2D plane, find the closest pair of points among them using the divide and conquer approach.
+
+## Hashing Problems
+
+1. **Two Sum Problem:**
+   Given an array of integers and a target sum, find two numbers in the array that add up to the target sum.
+
+2. **Subarray Sum Equals K:**
+   Given an array of integers, find the total number of continuous subarrays whose sum equals a specific target number K.
+
+3. **Longest Subarray with Sum K:**
+   Given an array of integers, find the length of the longest subarray with a sum equal to K.
+
+4. **Four Sum Problem:**
+   Given an array of integers and a target sum, find all unique quadruplets in the array that sum up to the target.
+
+5. **Isomorphic Strings:**
+   Given two strings s and t, determine if they are isomorphic. Two strings are isomorphic if the characters in s can be replaced to get t.
+
+6. **Valid Anagram:**
+   Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+7. **Group Anagrams:**
+   Given an array of strings, group the anagrams together.
+
+8. **Longest Consecutive Sequence:**
+   Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+9. **Minimum Window Substring:**
+   Given a string S and a string T, find the minimum window in S that contains all the characters of T in complexity O(n).
+
+10. **Longest Substring Without Repeating Characters:**
+    Given a string, find the length of the longest substring without repeating characters.
+
+## Heaps and Priority Queues Problems
+
+1. **Kth Smallest Element in a Sorted Matrix:**
+   Given a matrix where every row and column is sorted in ascending order, find the kth smallest element in the matrix.
+
+2. **Merge K Sorted Lists:**
+   Merge k sorted linked lists and return it as one sorted list.
+
+3. **Sliding Window Maximum:**
+   Given an array nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Return the maximum element inside the window at each distinct position of the moving window.
+
+4. **Find Median from Data Stream:**
+   Design a data structure that supports the following two operations: addNum(int num) - Add a unique number to the data structure, and findMedian() - Return the median of all elements so far.
+
+5. **Top K Frequent Elements:**
+   Given a non-empty array of integers, return the k most frequent elements.
+
+6. **Frequency Sort:**
+   Given a string, sort it based on the frequency of characters.
+
+7. **Kth Largest Element in an Array:**
+   Find the kth largest element in an unsorted array.
+
+8. **Rearrange String k Distance Apart:**
+   Given a non-empty string s and an integer k, rearrange the string such that the same characters are at least distance k from each other.
+
+9. **Find K Pairs with Smallest Sums:**
+   You are given two integer arrays nums1 and nums2 sorted in ascending order and an integer k. Define a pair (u, v) which consists of one element from the first array and one element from the second array. Find the k pairs (u1, v1), (u2, v2) ..., (uk, vk) with the smallest sums.
+
+10. **Find the Shortest Superstring:**
+    Given an array A of strings, find any smallest string that contains each string in A as a substring. We may assume that no string in A is a substring of another string in A.
+
+## Graph Algorithms Problems
+
+1. **Course Schedule II:**
+   There are a total of n courses you have to take, labeled from 0 to n-1. Some courses may have prerequisites. The prerequisites of a course i are represented as a list of courses directly pointing to i. Return the ordering of courses you should take to finish all courses.
+
+2. **Network Delay Time:**
+   There are n network nodes, labeled from 1 to n, and times, a list of travel times as directed edges. Calculate the time it takes for all the nodes to receive the signal from node k. If the signal cannot reach all the nodes, return -1.
+
+3. **Word Ladder II:**
+   Given two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation sequences from beginWord to endWord, such that:
+   1. Only one letter can be changed at a time.
+   2. Each transformed word must exist in the word list.
+
+4. **Alien Dictionary:**
+   Given a list of words sorted in lexicographical order, construct the dictionary's order and return it. If the input is invalid, return an empty string.
+
+5. **Word Search II:**
+   Given a 2D board and a list of words from the dictionary, find all words in the board.
+
+6. **Perfect Squares:**
+   Given a positive integer n, find the least number of perfect square numbers which sum to n.
+
+7. **Number of Islands II:**
+   A 2d grid map of m rows and n columns is initially filled with water. We may perform an addLand operation which turns the water at position (row, col) into a land. Given a list of positions to operate, count the number of islands after each addLand operation.
+
+8. **Bus Routes:**
+   We have a list of bus routes. Each routes[i] is a bus route that the i-th bus repeats forever. For example, if routes[0] = [1, 5, 7], this means that the first bus (0-th indexed) travels in the sequence 1->5->7->1->5->7->1->... forever.
+
+9. **Longest Increasing Path in a Matrix:**
+   Given an m x n integers matrix, find the length of the longest increasing path.
+
+10. **Dungeon Game:**
+    The demons had captured the princess and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of m x n rooms laid out in a 2D grid. When the princess enters a room, the demons immediately attack her. You need to find the knight's minimum initial health so that he can rescue the princess.
