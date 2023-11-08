@@ -2,6 +2,7 @@
 
 ## Compile-time vs Runtime
 **Q:** What is the difference between compile-time and runtime?
+
 **A:** Compile-time refers to code conversion into an executable form, while runtime is when the program is executed.
 
 ## Compiler vs Interpreter
