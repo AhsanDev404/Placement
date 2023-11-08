@@ -1,4 +1,4 @@
-# <center> Placement preparation by AhsanDev404 <center> 
+# Placement preparation by AhsanDev404 
 
 
 # Programming Fundamentals Q&A
